@@ -22,5 +22,4 @@ for i in ("перше","друге","третє"):
         if check(num):
             rgb += main(num).zfill(2)
             break
-print('The hexa color: '+rgb)
 print(rgb)
