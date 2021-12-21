@@ -16,7 +16,7 @@ def decor(active=True):
                 for i in b:
                     c+=1
                     print(i)
-                print("Pages =",c)
+                print("Notebook =",c)
             else:
                 b =func(*args, **kwargs)
                 z = []
@@ -27,7 +27,7 @@ def decor(active=True):
                 for i in z:
                     c+=1
                     print(i)
-                print("Pages =",c)
+                print("Notebook =",c)
         return wrapper
     return wrap
 par = input("Enter argument: T = true, f = False:")
